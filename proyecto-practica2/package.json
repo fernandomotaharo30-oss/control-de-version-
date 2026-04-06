@@ -1,0 +1,16 @@
+{
+  "name": "practica2-control-versiones",
+  "version": "1.0.0",
+  "description": "Práctica II - Control de versiones y administración de paquetes",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss/main.scss dist/css/main.css",
+    "sass:watch": "sass --watch src/scss/main.scss dist/css/main.css",
+    "build": "sass src/scss/main.scss dist/css/main.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
